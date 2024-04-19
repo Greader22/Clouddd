@@ -3,16 +3,16 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://surus.db.elephantsql.com:5432/sfvjmlfp
-    username: sfvjmlfp
-    password: Z8bgV3JC-WWs6nx09diqoC0rAF0Y5iNl
+    url: jdbc:postgresql://flora.db.elephantsql.com:5432/myvecvvx
+    username: myvecvvx
+    password: PIqqWFwyLc2WPeKf59I9vVQC6UnrAtnw
   # JPA properties
   jpa:
     hibernate.ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 # Server configuration
 server:
-  port: 8080
+  port: 8081
 # Security configuration
 security:
   user:
